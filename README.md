@@ -6,7 +6,7 @@ A domain-specific intelligent assistant for answering financial queries using Ze
 
 ##  Project Overview
 
-This project explores the power of **Zero-Shot Learning (ZSL)** and **pretrained LLMs** to address novel financial questions without needing domain-specific fine-tuning. By integrating **LLMs** with financial Q&A datasets like **FinQA** and **Finance-Alpaca**, the assistant understands and answers finance-related queries with high relevance.
+This project explores the power of **Zero-Shot Learning (ZSL)** and **pretrained LLMs** to address novel financial questions without needing domain-specific fine-tuning. By integrating **LLMs** with financial Q&A datasets like **Finance-Alpaca**, the assistant understands and answers finance-related queries with high relevance.
 
 ###  Key Features
 
@@ -15,7 +15,7 @@ This project explores the power of **Zero-Shot Learning (ZSL)** and **pretrained
 -  CSV-based financial audit capabilities
 -  Hybrid RAG setup using FAISS + Sentence Transformers
 -  Intent-based routing for Q&A, calculators, and data audit
--  Powered by models like Mistral / LLaMA 2 / GPT-based LLMs
+-  Powered by models like  LLaMA 2-based LLMs
 -  Lightweight, CPU-compatible option for basic setups
 
 ---
@@ -56,9 +56,9 @@ Based on the intent, the query is routed to:
 If classified as Q&A, it retrieves relevant context from the FAISS store and sends it to the LLM for a final response.
 
 ## Models & Technologies Used
-- LLMs: Mistral / LLaMA 2 / GPT (via HuggingFace)
+- LLMs: LLaMA 2 
 
-- Datasets: FinQA, Finance-Alpaca
+- Datasets: Finance-Alpaca
 
 - Vector Store: FAISS
 
@@ -66,7 +66,7 @@ If classified as Q&A, it retrieves relevant context from the FAISS store and sen
 
 - Calculators: Custom SIP/EMI/ROI functions
 
-- ZSL Techniques: Prompt Engineering, Context Injection
+- ZSL Techniques: Prompt Engineering
 
 ## Sample Queries
 - "How much will I gain in 5 years if I invest ₹5,000 monthly in a SIP?"
