@@ -83,3 +83,14 @@ If classified as Q&A, it retrieves relevant context from the FAISS store and sen
 - Enhance calculator module with visualization
 
 - Enable real-time financial news integration
+
+  ## screenshots:
+  ### Example of the chatbot interface
+  ![Alt Text](Output_images/App_output.jpeg)
+
+  ### Example of module used result
+  ![Alt Text](Output_images/Module_used_result.jpeg)
+
+  ### Example of ZSL+RAG result 
+  ![Alt Text](Output_images/Result.jpeg)
+  
