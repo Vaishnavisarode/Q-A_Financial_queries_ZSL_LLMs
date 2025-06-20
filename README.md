@@ -31,7 +31,17 @@ git clone https://github.com/Vaishnavisarode/Q-A_Financial_queries_ZSL_LLMs.git
 ### 2. Install Dependencies
 
 ```bash
-pip -r requirements.txt
+pip install transformers
+pip install torch
+pip install accelerate
+pip install sentence-transformers
+pip install faiss-cpu
+pip install scikit-learn
+pip install pandas
+pip install numpy
+pip install nltk
+pip install bitsandbytes
+pip install openpyxl
 ```
 
 >  Make sure your Python version is 3.7 or above.
